@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="Page-1">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="2" value="基于分子通信的靶向药物递送系统架构&#xa;MC-Based Targeted Drug Delivery System Architecture" style="text;html=1;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="600" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ======== Layer 1: Transmitter (发射层) ======== -->
+        <mxCell id="10" value="发射层 — 药物载体/纳米机器 (Transmitter Layer)" style="swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="800" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- 磁性纳米颗粒 -->
+        <mxCell id="11" value="磁性纳米颗粒载体&#xa;(MNP Carrier)&#xa;D=1e-10~1e-9 m²/s&#xa;磁场引导定向输运" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="10">
+          <mxGeometry x="30" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 细胞外囊泡 -->
+        <mxCell id="12" value="细胞外囊泡&#xa;(Extracellular Vesicle)&#xa;天然靶向性&#xa;电信号调控释放" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="10">
+          <mxGeometry x="230" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 细菌基纳米机器 -->
+        <mxCell id="13" value="细菌基纳米机器&#xa;(Bacterial NM)&#xa;群体感应(QS)&#xa;协同药物释放" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="10">
+          <mxGeometry x="430" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 微颗粒载体 -->
+        <mxCell id="14" value="微颗粒控释系统&#xa;(PLGA Microparticle)&#xa;实验验证的释放&#xa;动力学模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="10">
+          <mxGeometry x="630" y="40" width="150" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 释放门控标注 -->
+        <mxCell id="15" value="释放门控机制：▸ 被动扩散 ▸ 磁场触发 ▸ QS群体阈值 ▸ 电信号调制" style="text;html=1;fontSize=11;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="10">
+          <mxGeometry x="200" y="130" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ======== Layer 2: Channel (信道层) ======== -->
+        <mxCell id="30" value="信道层 — 人体组织环境 (Channel Layer)" style="swimlane;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="800" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- 扩散信道 -->
+        <mxCell id="31" value="扩散信道模型&#xa;(Fick 第二定律)&#xa;∂C/∂t = D∇²C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="30">
+          <mxGeometry x="30" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 多层球壳 -->
+        <mxCell id="32" value="多层球壳异质组织&#xa;(Multi-layer Sphere)&#xa;肿瘤: 外→致密→核心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="30">
+          <mxGeometry x="230" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 血管网络 -->
+        <mxCell id="33" value="血管网络传输&#xa;(Vascular Network)&#xa;MIGHT 模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="30">
+          <mxGeometry x="430" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 平流-扩散 -->
+        <mxCell id="34" value="平流-扩散信道&#xa;(Advection-Diffusion)&#xa;血流辅助输运" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="30">
+          <mxGeometry x="630" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 信道特性 -->
+        <mxCell id="35" value="信道特征：▸ 低通滤波 ▸ t^(-3/2) 脉冲拖尾 ▸ ISI ▸ 信号失真 &#xa;关键参数：D (扩散系数) | d (传输距离) | Pe (Péclet数)" style="text;html=1;fontSize=11;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="30">
+          <mxGeometry x="150" y="110" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 实验验证 -->
+        <mxCell id="36" value="CAM 体内测试平台&#xa;鸡胚绒毛尿囊膜模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="30">
+          <mxGeometry x="300" y="150" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ======== Arrow: TX to Channel ======== -->
+        <mxCell id="40" value="分子释放 (Poisson 过程)&#xa;释放速率 λ [s⁻¹]" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeColor=#00a300;strokeWidth=2;" edge="1" parent="1" source="10" target="30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ======== Layer 3: Receiver (接收层) ======== -->
+        <mxCell id="50" value="接收层 — 靶向组织/细胞 (Receiver Layer)" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="800" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- 有限受体 -->
+        <mxCell id="51" value="有限受体 (Nr个)&#xa;M/M/Nr/Nm 排队系统&#xa;结合速率 μ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="50">
+          <mxGeometry x="30" y="40" width="170" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- 细胞吸收 -->
+        <mxCell id="52" value="细胞吸收与内化&#xa;受体介导内吞&#xa;吸附概率模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="50">
+          <mxGeometry x="230" y="40" width="170" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Flexure-FET -->
+        <mxCell id="53" value="Flexure-FET 检测器&#xa;竞争性结合模型&#xa;抗干扰接收" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="50">
+          <mxGeometry x="430" y="40" width="170" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- 球状体 -->
+        <mxCell id="54" value="多球状体聚集体&#xa;(SIMO 模型)&#xa;等效多孔介质" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="50">
+          <mxGeometry x="630" y="40" width="150" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- 接收过程标注 -->
+        <mxCell id="55" value="接收过程：▸ 分子扩散到达 ▸ 受体竞争结合 ▸ 内化清除 ▸ 随机运动拒绝" style="text;html=1;fontSize=11;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="50">
+          <mxGeometry x="200" y="120" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ======== Arrow: Channel to Receiver ======== -->
+        <mxCell id="60" value="分子扩散传输&#xa;浓度 vs 时间 c(r,t)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeColor=#d00000;strokeWidth=2;" edge="1" parent="1" source="30" target="50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ======== Layer 4: Control (控制层) ======== -->
+        <mxCell id="70" value="智能控制层 (Control Layer)" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="800" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- 闭环控制 -->
+        <mxCell id="71" value="闭环控制&#xa;(Closed-Loop)&#xa;|--ISI分析--|" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="70">
+          <mxGeometry x="30" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- SBRNN -->
+        <mxCell id="72" value="深度学习定位&#xa;(SBRNN)&#xa;89.52% 准确率" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="70">
+          <mxGeometry x="230" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- JDAI -->
+        <mxCell id="73" value="纳米机器人集群&#xa;联合检测识别(JDAI)&#xa;可扩展控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="70">
+          <mxGeometry x="430" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 语义信息 -->
+        <mxCell id="74" value="语义信息论优化&#xa;参数空间搜索&#xa;最优释放策略" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="70">
+          <mxGeometry x="630" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ======== Arrow: Control to/from system ======== -->
+        <mxCell id="80" value="反馈控制" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=1.5;dashed=1;" edge="1" parent="1" source="70" target="50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81" value="参数调制" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=1.5;dashed=1;" edge="1" parent="1" source="70" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 图例 -->
+        <mxCell id="91" value="图例&#xa;🟩 发射层 = 药物载体/纳米机器&#xa;🟨 信道层 = 组织传输环境&#xa;🟥 接收层 = 靶向细胞&#xa;⬜ 控制层 = 智能算法&#xa;━ 实线 = 分子传输&#xa;┅ 虚线 = 反馈控制" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="300" width="160" height="170" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

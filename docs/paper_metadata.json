@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1704.04206",
+    "title": "Molecular Communication using Magnetic Nanoparticles",
+    "abstract": "In this paper, we propose to use magnetic nanoparticles as information carriers for molecular communication. This enables the use of an external magnetic field to guide information-carrying particles towards the receiver. We show that the particle movement can be mathematically modeled as diffusion with drift. Thereby, we reveal that the key parameters determining the magnetic force are particle size and magnetic field gradient. As an example, we consider magnetic nanoparticle based communication in a bounded two-dimensional environment. For this model, we derive an analytical expression for the channel impulse response subject to fluid flow and magnetic drift. Furthermore, adopting the symbol error rate as performance metric, we show that using magnetic nanoparticles facilitates reliable "
+  },
+  {
+    "id": "1808.04273",
+    "title": "A molecular communications model for drug delivery",
+    "abstract": "This paper considers the scenario of a targeted drug delivery system, which consists of deploying a number of biological nanomachines close to a biological target (e.g. a tumor), able to deliver drug molecules in the diseased area. Suitably located transmitters are designed to release a continuous flow of drug molecules in the surrounding environment, where they diffuse and reach the target. These molecules are received when they chemically react with compliant receptors deployed on the receiver surface. In these conditions, if the release rate is relatively high and the drug absorption time is significant, congestion may happen, essentially at the receiver site. This phenomenon limits the drug absorption rate and makes the signal transmission ineffective, with an undesired diffusion of dr"
+  },
+  {
+    "id": "1808.05147",
+    "title": "Magnetic Nanoparticle Based Molecular Communication in Microfluidic Environments",
+    "abstract": "The possibility to guide and control magnetic nanoparticles in a non-invasive manner has spawned various applications in biotechnology such as targeted drug delivery and sensing of biological substances. These applications are facilitated by the engineering of the size, selective chemical reactivity, and general chemical composition of the employed particles. Motivated by their widespread use and favorable properties, in this paper, we provide a theoretical study of the potential benefits of magnetic nanoparticles for the design of molecular communication systems. In particular, we consider magnetic nanoparticle based communication in a microfluidic channel where an external magnetic field is employed to attract the information-carrying particles to the receiver. We show that the particle "
+  },
+  {
+    "id": "1811.00417",
+    "title": "Diffusive Mobile MC for Controlled-Release Drug Delivery with Absorbing Receiver",
+    "abstract": "Nanoparticle drug carriers play an important role in facilitating efficient targeted drug delivery, i.e., improving treatment success and reducing drug costs and side effects. However, the mobility of nanoparticle drug carriers poses a challenge in designing drug delivery systems. Moreover, healing results critically depend on the rate and time duration of drug absorption. Therefore, in this paper, we aim to design a controlled-release drug delivery system with a mobile drug carrier that minimizes the total amount of released drugs while ensuring a desired rate of drug absorption during a prescribed time period. We model the mobile drug carrier as a mobile transmitter, the targeted diseased cells as an absorbing receiver, and the channel between the transceivers as a time-variant channel s"
+  },
+  {
+    "id": "1812.05492",
+    "title": "Channel Modeling for Diffusive Molecular Communication - A Tutorial Review",
+    "abstract": "Molecular communication (MC) is a new communication engineering paradigm where molecules are employed as information carriers. MC systems are expected to enable new revolutionary applications such as sensing of target substances in biotechnology, smart drug delivery in medicine, and monitoring of oil pipelines or chemical reactors in industrial settings. As for any other kind of communication, simple yet sufficiently accurate channel models are needed for the design, analysis, and efficient operation of MC systems. In this paper, we provide a tutorial review on mathematical channel modeling for diffusive MC systems. The considered end-to-end MC channel models incorporate the effects of the release mechanism, the MC environment, and the reception mechanism on the observed information molecu"
+  },
+  {
+    "id": "1911.08291",
+    "title": "Fresnel incoherent correlation holography with single camera shot",
+    "abstract": "Fresnel incoherent correlation holography (FINCH) is a self-interference based super-resolution three-dimensional imaging technique. FINCH in inline configuration requires an active phase modulator and at least three camera shots to reconstruct objects without the twin image and bias terms. In this study, FINCH is realized using a randomly multiplexed bifocal binary Fresnel zone lenses fabricated using electron beam lithography. A modified hologram reconstruction mechanism is presented which introduces the single shot capability in FINCH. A point spread hologram library was recorded using a point object located at different axial locations and an object hologram was recorded. The image of the object at different planes were reconstructed using decorrelation of the object hologram by the po"
+  },
+  {
+    "id": "2007.01799",
+    "title": "Transfer Function Models for Cylindrical MC Channels with Diffusion and Laminar Flow",
+    "abstract": "The analysis and design of advection-diffusion based molecular communication (MC) systems in cylindrical environments is of particular interest for applications such as micro-fluidics and targeted drug delivery in blood vessels. Therefore, the accurate modeling of the corresponding MC channel is of high importance. The propagation of particles in these systems is caused by a combination of diffusion and flow with a parabolic velocity profile, i.e., laminar flow. The propagation characteristics of the particles can be categorized into three different regimes: The flow dominant regime where the influence of diffusion on the particle transport is negligible, the dispersive regime where diffusion has a much stronger impact than flow, and the mixed regime where both effects are important. For t"
+  },
+  {
+    "id": "2112.12485",
+    "title": "On the Reception Process of Molecular Communication-Based Drug Delivery",
+    "abstract": "One of the important applications of molecular communication is the targeted drug delivery process in which the drug molecules are released toward the target (receiver) in a way that the side effects are minimized in the human body. As the total number of released molecules increases, the receiver cannot receive all of the transmitted drug molecules. Therefore, the molecules would be accumulated in the system which results in side effects in the body. In order to diagnose the appropriate transmission rate of the drug molecules, it is important to investigate the reception process of the receiver. In this paper, a reception model is studied using queuing theory. In the proposed model, the rejection rate of the drug molecules due to different reasons, such as random movement of the molecules"
+  },
+  {
+    "id": "2207.01875",
+    "title": "The End-to-End Molecular Communication Model of Extracellular Vesicle-based Drug Delivery",
+    "abstract": "A closer look at nature has recently brought more interest in exploring and utilizing intra-body communication networks composed of cells as intrinsic, perfectly biocompatible infrastructures to deliver therapeutics. Naturally occurring cell-to-cell communication systems are being manipulated to release, navigate, and take up soluble cell-derived messengers that are either therapeutic by nature or carry therapeutic molecular cargo in their structures. One example of such structures is extracellular vesicles (EVs) which have been recently proven to have favorable pharmacokinetic properties, opening new avenues for developing the next generation biotherapeutics. In this paper, we study theoretical aspects of the EV transfer within heart tissue as a case study by utilizing an information and "
+  },
+  {
+    "id": "2303.08015",
+    "title": "Molecular Communication for Quorum Sensing Inspired Cooperative Drug Delivery",
+    "abstract": "A cooperative drug delivery system is proposed, where quorum sensing (QS), a density-dependent bacterial behavior coordination mechanism, is employed by synthetic bacterium-based nanomachines (B-NMs) for controllable drug delivery. In our proposed system, drug delivery is only triggered when there are enough QS molecules, which in turn only happens when there are enough B-NMs. This makes the proposed system can be used to achieve a high release rate of drug molecules from a high number of B-NMs when the population density of B-NMs may not be known. Analytical expressions for i) the expected activation probability of the B-NM due to randomly-distributed B-NMs and ii) the expected aggregate absorption rate of drug molecules due to randomly-distributed QS activated B-NMs are derived. Analytic"
+  },
+  {
+    "id": "2305.05527",
+    "title": "Microparticle-based Controlled Drug Delivery Systems: From Experiments to Statistical Analysis and Design",
+    "abstract": "Controlled drug delivery (CDD), the controlled release and delivery of therapeutic drugs inside the human body, is a promising approach to increase the efficacy of drug administration and reduce harmful side effects to the body. CDD has been a major research focus in the field of molecular communications (MC) with the goal to aid the design and optimization of CDD systems with communication theoretical analysis. However, the existing studies of CDD under the MC framework are purely theoretical, and the potential of MC for the development of practical CDD applications remains yet to be shown. This paper presents a step towards filling this research gap. Specifically, we present a novel MC-based model for a specific CDD system in which drugs are embedded into microparticles and released grad"
+  },
+  {
+    "id": "2311.16356",
+    "title": "What Really is `Molecule&#39; in Molecular Communications? The Quest for Physics of Particle-based Information Carriers",
+    "abstract": "Molecular communication, as implied by its name, uses molecules as information carriers for communication between objects. It has an advantage over traditional electromagnetic-wave-based communication in that molecule-based systems could be biocompatible, operable in challenging environments, and energetically undemanding. Consequently, they are envisioned to have a broad range of applications, such as in the Internet of Bio-nano Things, targeted drug delivery, and agricultural monitoring. Despite the rapid development of the field, with an increasing number of theoretical models and experimental testbeds established by researchers, a fundamental aspect of the field has often been sidelined, namely, the nature of the molecule in molecular communication.\nThe potential information molecules "
+  },
+  {
+    "id": "2403.20029",
+    "title": "Analysis of Signal Distortion in Molecular Communication Channels Using Frequency Response",
+    "abstract": "Molecular communication (MC) is a concept in communication engineering, where diffusive molecules are used to transmit information between nano or micro-scale chemical reaction systems. Engineering MC to control the reaction systems in cells is expected for many applications such as targeted drug delivery and biocomputing. Toward control of the reaction systems as desired via MC, it is important to transmit signals without distortion by MC since the reaction systems are often triggered depending on the concentration of signaling molecules arriving at the cells. In this paper, we propose a method to analyze signal distortion caused by diffusion-based MC channels using frequency response of channels. The proposed method provides indices that quantitatively evaluate the magnitude of distortio"
+  },
+  {
+    "id": "2405.14044",
+    "title": "Single Input Multi Output Model of Molecular Communication via Diffusion with Spheroidal Receivers",
+    "abstract": "Spheroids are aggregates of cells that can mimic the cellular organization often found in tissues. They are typically formed through the self-assembly of cells in a culture where there is a promotion of interactions and cell-to-cell communication. Spheroids can be created from various cell types, including cancer cells, stem cells, and primary cells, and they serve as valuable tools in biological research. In this letter, molecule propagation from a point source is simulated in the presence of multiple spheroids to observe the impact of the spheroids on the spatial molecule distribution. The spheroids are modeled as porous media with a corresponding effective diffusion coefficient. System variations are considered with a higher spheroid porosity (i.e., with a higher effective diffusion coe"
+  },
+  {
+    "id": "2406.09875",
+    "title": "The Chorioallantoic Membrane Model: A 3D in vivo Testbed for Design and Analysis of MC Systems",
+    "abstract": "Molecular Communications (MC) research is increasingly focused on applications within the human body, such as health monitoring and drug delivery. These applications require testing in realistic and living environments. Thus, advancing experimental MC research to the next level requires the development of in vivo experimental testbeds. In this paper, we introduce the Chorioallantoic Membrane ( CAM ) model as a versatile 3D in vivo MC testbed. The CAM is a highly vascularized membrane formed in fertilized chicken eggs and has gained significance in various research fields, including bioengineering, cancer research, and drug development. Its versatility, reproducibility, and realistic biological properties make the CAM model perfectly suited for next-generation MC testbeds, facilitating the "
+  },
+  {
+    "id": "2409.18616",
+    "title": "Enhanced Drug Delivery via Localization-Enabled Relaying in Molecular Communication Nanonetworks",
+    "abstract": "Intra-body nanonetworks hold promise for advancing targeted drug delivery (TDD) systems through molecular communications (MC). In the baseline MC-TDD system, drug-loaded nanomachines (DgNs) are positioned near the infected tissues to deliver drug molecules directly. To mitigate the decline in drug delivery efficiency caused by diffusion, we propose an enhanced MC-TDD system with a relay network. This network employs a novel localization-enabled relaying mechanism, where a nano-controller broadcasts a localization signal. DgNs then measure the received signal strength against thresholds to determine their clusters relative to the infected tissue. Additionally, our study considers the effect of multiple absorbing DgNs on the channel impulse response (CIR), a factor overlooked in previous wor"
+  },
+  {
+    "id": "2410.15943",
+    "title": "Molecular Signal Reception in Complex Vessel Networks: The Role of the Network Topology",
+    "abstract": "The notion of synthetic molecular communication (MC) refers to the transmission of information via molecules and is largely foreseen for use within the human body, where traditional electromagnetic wave (EM)-based communication is impractical. MC is anticipated to enable innovative medical applications, such as early-stage tumor detection, targeted drug delivery, and holistic approaches like the Internet of Bio-Nano Things (IoBNT). Many of these applications involve parts of the human cardiovascular system (CVS), here referred to as networks, posing challenges for MC due to their complex, highly branched vessel structures. To gain a better understanding of how the topology of such branched vessel networks affects the reception of a molecular signal at a target location, e.g., the network o"
+  },
+  {
+    "id": "2503.13738",
+    "title": "General Molecular Communication Model in Multi-Layered Spherical Channels",
+    "abstract": "Spherical multi-layered structures are prevalent in numerous biological systems and engineered applications, including tumor spheroids, layered tissues, and multi-shell nanoparticles for targeted drug delivery. Despite their widespread occurrence, there remains a gap in modeling particle propagation through these complex structures from a molecular communication (MC) perspective. This paper introduces a generalized analytical framework for modeling diffusion-based molecular communication in multi-layered spherical environments. The framework is capable of supporting an arbitrary number of layers and flexible transmitter-receiver positioning. As an example, the detailed formulation is presented for the three-layer sphere, which is particularly relevant for different biological models such a"
+  },
+  {
+    "id": "2504.12123",
+    "title": "The CAM Model: An in vivo Testbed for Molecular Communication Systems",
+    "abstract": "Molecular communication (MC) research increasingly focuses on biomedical applications like health monitoring and drug delivery, demanding testing in realistic living environments. Elevating MC research requires developing advanced in vivo testbeds. We introduce the chorioallantoic membrane (CAM) model as the first versatile 3D in vivo MC platform. The CAM, a highly vascularized membrane in fertilized chicken eggs, is established in bioengineering, cancer research, and drug development. Its biological realism, reproducibility, and versatility make it ideal for next-generation MC testbeds, bridging proof-of-concept systems and practical applications. We comprehensively characterize the CAM model&#39;s properties and MC system relevance. Through experimental studies, we investigate fluorescen"
+  },
+  {
+    "id": "2505.22849",
+    "title": "Flexure-FET-Based Receiver with Competitive Binding for Interference Mitigation in Molecular Communication",
+    "abstract": "Molecular communication (MC), a biologically inspired technology, enables applications in nanonetworks and the Internet of Everything (IoE), with great potential for intra-body systems such as drug delivery, health monitoring, and disease detection. This paper extends our prior work on the Flexure-FET MC receiver by integrating a competitive binding model to enhance performance in high-interference environments, where multiple molecular species coexist in the reception space. Previous studies have largely focused on ligand concentration estimation and detection, without fully addressing the effects of inter-species competition for receptor binding. Our proposed framework captures this competition, offering a more biologically accurate model for multitarget environments. By incorporating co"
+  },
+  {
+    "id": "2506.14360",
+    "title": "Identification for Molecular Communication Based on Diffusion Channel with Poisson Reception Process",
+    "abstract": "Molecular communication (MC) enables information exchange at the nano- and microscale, with applications in areas like drug delivery and health monitoring. These event-driven scenarios often require alternatives to traditional transmission. Identification communication, introduced by Ahlswede and Dueck, offers such an approach, in which the receiver only determines whether a specific message was sent, suiting resource-limited and event-triggered systems. This paper combines MC with identification and proposes a one-dimensional (1D) diffusion-based model. Diffusion noise is modeled as a Poisson process, and a lower bound on channel capacity is derived. Simulations, microscopic, and with short-length deterministic codes, validate theoretical results, including the channel impulse response an"
+  },
+  {
+    "id": "2506.17112",
+    "title": "Closed-Loop Molecular Communication with Local and Global Degradation: Modeling and ISI Analysis",
+    "abstract": "This paper presents a novel physics-based model for signal propagation in closed-loop molecular communication (MC) systems, which are particularly relevant for many envisioned biomedical applications, such as health monitoring or drug delivery within the closed-loop human cardiovascular system (CVS). Compared to open-loop systems, which are mostly considered in MC, closed-loop systems exhibit different characteristic effects influencing signaling molecule (SM) propagation. One key phenomenon are the periodic SM arrivals at the receiver (RX), leading to various types of inter-symbol interference (ISI) inherent to closed-loop system. To capture these characteristic effects, we propose an analytical model for the SM propagation inside closed-loop systems. The model accounts for arbitrary spat"
+  },
+  {
+    "id": "2506.22137",
+    "title": "On Drug Delivery System Parameter Optimisation via Semantic Information Theory",
+    "abstract": "We investigate the application of semantic information theory to drug delivery systems (DDS) within the molecular communication (MC) framework. To operationalise this, we observe a DDS as a molecular concentration-based channel. Semantic information is defined as the amount of information required for a DDS to achieve its therapeutic goal in a dynamic environment. We derive it by introducing interventions, defined as modifications to DDS parameters, a viability function, and system-environment correlations quantified via the channel capacity. Here, the viability function represents DDS performance based on a drug dose-response relationship. Our model considers a system capable of inducing functional changes in a receiver cancer cell, where exceeding critical DDS parameter values can signif"
+  },
+  {
+    "id": "2508.19739",
+    "title": "Molecular Communication for Gastroretentive Drug Delivery",
+    "abstract": "Recently, bacterial nanocellulose (BNC), a biological material produced by non-pathogenic bacteria that possesses excellent material properties for various medical applications, has received increased interest as a carrier system for drug delivery. However, the vast majority of existing studies on drug release from BNC are feasibility studies with modeling and design aspects remaining largely unexplored. To narrow this research gap, this paper proposes a novel model for the drug release from BNC. Specifically, the drug delivery system considered in this paper consists of a BNC fleece coated with a polymer. The polymer coating is used as an additional diffusion barrier, enabling the controlled release of an active pharmaceutical ingredient. The proposed physics-based model reflects the geom"
+  },
+  {
+    "id": "2510.11743",
+    "title": "Mixture of Inverse Gaussians for Hemodynamic Transport (MIGHT) in Multiple-Input Multiple-Output Vascular Networks",
+    "abstract": "Synthetic molecular communication (MC) in the cardiovascular system is a key enabler for many envisioned medical applications inside the human body, such as targeted drug delivery, early disease detection, and continuous health monitoring. The design of synthetic MC systems for such applications requires suitable models for the signaling molecule propagation through complex vessel networks (VNs). Existing theoretical models offer limited analytical tractability and lack closed-form solutions, making the analysis of realistic large-scale VNs either infeasible or not insightful. To overcome these limitations, in this paper, we propose a novel closed-form physical model, termed mixture of inverse Gaussians for hemodynamic transport (MIGHT), for the advection-diffusion-driven transport of sign"
+  },
+  {
+    "id": "2511.02074",
+    "title": "Neural Network based Distance Estimation for Branched Molecular Communication Systems",
+    "abstract": "Molecular Communications (MC) is an emerging research paradigm that utilizes molecules to transmit information, with promising applications in biomedicine such as targeted drug delivery or tumor detection. It is also envisioned as a key enabler of the Internet of BioNanoThings (IoBNT). In this paper, we propose algorithms based on Recurrent Neural Networks (RNN) for the estimation of communication channel parameters in MC systems. We focus on a simple branched topology, simulating the molecule movement with a macroscopic MC simulator. The Deep Learning architectures proposed for distance estimation demonstrate strong performance within these branched environments, highlighting their potential for future MC applications."
+  },
+  {
+    "id": "2603.28412",
+    "title": "Joint Detection and Identification for Scalable Control of Nanorobot Swarms under Harsh Communication Constraints",
+    "abstract": "The coordination of large populations of highly constrained devices, such as micro- and nanoscale agents in biomedical applications, poses fundamental challenges to classical communication paradigms. In scenarios such as targeted drug delivery, devices operate under severe limitations in energy, size, and communication capabilities, while requiring precise and selective activation within spatially localized regions.\nIn this work, we propose the framework of Joint Detection and Identification (JDAI) as a system-level approach for scalable control under such constraints. The key idea is to shift from reliable message transmission to a control-oriented paradigm, in which devices locally decide whether a broadcast signal is relevant. This enables implicit addressing and subset activation witho"
+  }
+]

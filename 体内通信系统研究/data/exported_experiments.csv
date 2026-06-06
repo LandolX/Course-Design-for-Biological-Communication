@@ -1,0 +1,6 @@
+id,timestamp,params,tissue_type,implant_depth,frequency,path_loss,snr,energy_consumption,environment
+5,2026-06-03T17:41:27.965669,"{""n_freq"": 50, ""n_depth"": 20}",multilayer,0.08,433000000.0,60.0,4.7,1e-08,simulation
+4,2026-06-03T17:41:27.958259,"{""n_freq"": 50, ""n_depth"": 20}",multilayer,0.05,2400000000.0,68.4,-2.1,1e-08,simulation
+3,2026-06-03T17:41:27.952044,"{""n_freq"": 50, ""n_depth"": 20}",multilayer,0.05,402000000.0,52.1,8.3,1e-08,simulation
+2,2026-06-03T17:41:27.944480,"{""n_freq"": 50, ""n_depth"": 20}",multilayer,0.03,915000000.0,55.8,5.2,1e-08,simulation
+1,2026-06-03T17:41:27.937931,"{""n_freq"": 50, ""n_depth"": 20}",multilayer,0.03,402000000.0,45.2,12.5,1e-08,simulation
