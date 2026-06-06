@@ -5,7 +5,7 @@ import subprocess
 import re
 import os
 
-OUTPUT_DIR = "/Users/landolx/Desktop/生物通信工程/课程设计/docs"
+OUTPUT_DIR = "/Users/landolx/Desktop/生物通信工程/课程设计/reference"
 
 PAPERS = [
     # === Latest papers (2024-2026) ===
@@ -83,7 +83,7 @@ def main():
     print(f"\n{'='*60}")
     print(f"Summary: {success}/{len(PAPERS)} papers downloaded successfully")
     print(f"{'='*60}")
-    print(f"\nContents of docs folder:")
+    print(f"\nContents of reference folder:")
     for f in sorted(os.listdir(OUTPUT_DIR)):
         if f.endswith('.pdf'):
             size_kb = os.path.getsize(os.path.join(OUTPUT_DIR, f)) / 1024
